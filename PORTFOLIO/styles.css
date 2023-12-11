@@ -130,12 +130,14 @@ html body{
 
 /*------------------PRESENTACION----------------------*/
 
+/*flex para poner a cada lado la foto y los textos*/
 main .presentacion {
     display: flex;
     justify-content: space-between;
     background-color: var(--color2);
 }
 
+/*Foto de la portada*/
 main .Fotoport{
     width: 100%;
     height: auto;
@@ -143,10 +145,12 @@ main .Fotoport{
     margin-bottom: -1.1%;
 }
 
+/*parte derecha de la presentacion*/
 .presentacion .derecha{
 	flex-basis:50%;
 }
 
+/*ajustes del texto*/
 .presentacion .derecha p{
     font-size: 180%;
     border-radius: 80px;
@@ -160,6 +164,7 @@ main .Fotoport{
     font-weight: bold;
 }
 
+/*ajustes del texto*/
 .presentacion .derecha a{
     text-decoration: none;
     font-size: 180%;
@@ -239,6 +244,7 @@ dl dd{
 
 /*-------------------TRABAJOS WEBS-------------------------*/
 
+/*ajustes de las webs ya hechas*/
 .webs{
     background-color: var(--color4);
     padding-bottom:8% ;
@@ -295,6 +301,8 @@ dl dd{
 
 /*--------------------COMENTARIOS------------------------*/
 
+
+/*Comentarios de cada persona */
 .comentarios{
     background-color: var(--color5);
     justify-items: center;
@@ -302,10 +310,8 @@ dl dd{
     padding-top: 4%;
     padding-bottom: 4%;
     margin: auto;
-
-
 }
-
+/*ajustes del titulo*/
 .comentarios h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -313,6 +319,7 @@ dl dd{
     font-size: 180%;
 }
 
+/*ajustes del caja completa*/
 .comentarios .coment{
     display: flex;
     flex-direction: row;
@@ -322,6 +329,7 @@ dl dd{
     margin-right: 10%;
 }
 
+/*ajustes del de los cards*/
 .card {
     width: 300px;
 }
@@ -365,7 +373,7 @@ dl dd{
 
 
 /*----------------------CONTACTO----------------------------*/
-
+/*ajustes del footer*/
 .footer{
     display: flex;
     flex-direction: row;
@@ -377,6 +385,7 @@ dl dd{
 
 }
 
+/*ajustes del titulo*/
 .titulo3{
 
     text-align: center;
@@ -402,6 +411,7 @@ dl dd{
     width: 400px;
 }
 
+/*ajustes del enviar datos de informacion*/
 input, input, textarea {
     width: 100%;
     padding: 10px;
